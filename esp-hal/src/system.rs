@@ -1137,7 +1137,6 @@ impl PeripheralClockControl {
                 if prev > 1 {
                     return false;
                 }
-                assert!(prev != 0);
             };
         } else if !enable {
             assert!(*ref_count == 0);
